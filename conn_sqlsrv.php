@@ -1,7 +1,7 @@
 <?php
-$serverName = "PHUONGNHAN\TRANNHAN"; 
+$serverName = "VANTHU\SQLEXPRESS01"; 
 
-$connectionInfo = array( "Database"=>"StudentDB", "UID"=>"sa", "PWD"=>"123");
+$connectionInfo = array( "Database"=>"ASPNETVN.PORTAL.SONGBA", "UID"=>"sa", "PWD"=>"123");
 $conn = sqlsrv_connect( $serverName, $connectionInfo);
 
 if( $conn ) {
